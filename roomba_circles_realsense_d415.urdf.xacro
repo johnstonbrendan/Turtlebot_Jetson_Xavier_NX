@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+    - Base      : create
+    - Stacks    : circles
+    - 3d Sensor : realsense_d415
+-->    
+<robot name="turtlebot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find turtlebot_description)/urdf/turtlebot_common_library.urdf.xacro" />
+  <xacro:include filename="$(find create_description)/urdf/create.urdf.xacro"/>
+  <xacro:include filename="$(find turtlebot_description)/urdf/stacks/circles.urdf.xacro"/>
+  <xacro:include filename="$(find realsense2_description)/urdf/_d415.urdf.xacro"/>
+  <xacro:include filename="$(find turtlebot_description)/urdf/turtlebot_properties.urdf.xacro"/>
+
+  <create/>
+  <stack_circles parent="base_link"/>
+  <xacro:sensor_d415 parent="base_link" use_nominal_extrinsics="false">
+    <origin xyz="${cam_px} -0.0125 ${cam_pz}" rpy="${cam_or} ${cam_op} ${cam_oy}"/>
+  </xacro:sensor_d415>
+</robot>
