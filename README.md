@@ -9,8 +9,8 @@ This README will take you through the details of how get get a turtlebot running
 
 ## Results
 <table><tr>
-<td> <img src="https://imgur.com/FStJxjv.gif" alt="Drawing" height=40% /> </td>
-<td> <img src="https://imgur.com/CDWYJOu.gif" alt="Drawing" height=30%/> </td>
+<td> <img src="https://imgur.com/G0cJmHy.gif" alt="Drawing" height=100% /> </td>
+<td> <img src="https://imgur.com/CDWYJOu.gif" alt="Drawing" height=70%/> </td>
 </tr></table>
 
 ## Board Setup
