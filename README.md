@@ -7,6 +7,12 @@ This README will take you through the details of how get get a turtlebot running
 - Intel RealSense Depth Camera D415 (with standard USB connection)
 
 
+## Results
+<table><tr>
+<td> <img src="https://imgur.com/rpGW9aP.gif" alt="Drawing" height=40% /> </td>
+<td> <img src="https://imgur.com/GgWJZAQ.gif" alt="Drawing" height=30%/> </td>
+</tr></table>
+
 ## Board Setup
 
 Follow the steps provided by Nvidia: [https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit](https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit)
@@ -261,9 +267,6 @@ Steps moving forward should be (depending on your mechanical design) is to have 
 ### Electrical
 Have the Jetson powered by a portable battery source such as [this](https://www.amazon.com/TalentCell-Rechargeable-11000mAh-14500mAh-26400mAh/dp/B016BJCRUO/ref=mp_s_a_1_5?dchild=1&keywords=talentcell+rechargeable+12v&qid=1594243507&sprefix=talentce&sr=8-5).
 Or designing a circuit to have the jetson run off the roomba's battery, which will be interesting as there seems to be a fuse in the power line from the ftdi connector that is giving people trouble.
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
